@@ -242,7 +242,7 @@
     "href": "Course_Schedule.html#before-course-start",
     "title": "SISMID 2025 Course Schedule",
     "section": "Before course start",
-    "text": "Before course start\nPlease go through the tasks below to come prepared to the class.\n\nGeneral\n\nFamiliarize yourself with this website. Read through all of it.\nTake a brief look at the companion Simulation Modeling for Immunology (SMI) website.\nBrowse through our paper Simulation Modelling for Immunologists.\n\n\n\nSoftware\n\nInstall and set up R and Rstudio. Follow the instructions on the RStudio page.. If you need a few more details, here are some additional brief instructions.\nSet up and learn about DSAIRM. Go through all the content under Modeling -&gt; DSAIRM on the SMI website.\nIf you can, take an initial look at these apps in DSAIRM: Basic Bacteria Model and Basic Virus Model. Play around with them and go through (some of) the tasks to get familiar with DSAIRM."
+    "text": "Before course start\nPlease go through the tasks below to come prepared to the class.\n\nGeneral\n\nFamiliarize yourself with this website. Read through all of it.\nTake a brief look at the companion Simulation Modeling for Immunology (SMI) website.\nBrowse through our paper Simulation Modelling for Immunologists.\n\n\n\nSoftware\n\nInstall and set up R and Rstudio. Follow the instructions on the RStudio page.. If you need a few more details, here are some additional brief instructions.\nSet up and learn about DSAIRM. Go through the content under Modeling -&gt; DSAIRM on the SMI website.\nIf you can, take an initial look at these apps in DSAIRM: Basic Bacteria Model and Basic Virus Model. Play around with them and go through (some of) the tasks to get familiar with DSAIRM."
   },
   {
     "objectID": "Course_Schedule.html#course-schedule",
@@ -270,28 +270,28 @@
     "href": "Course_Communication.html",
     "title": "Course Communication",
     "section": "",
-    "text": "Since SISMID is in-person this year, thus the main mode of communication will be face-to-face 😊.\nThere is also a Slack channel for this module. We will monitor it, so you can send us a message there. And of course feel free to reach out to us by email as well."
+    "text": "The main mode of communication is face-to-face 😊. Talk to us any time during the course if you have any questions, suggestions, feedback, etc.\nThere is also a Slack channel for this module. We will monitor it, so you can send us a message there. And you can also reach out to us by email."
   },
   {
     "objectID": "Course_Resources.html",
     "href": "Course_Resources.html",
     "title": "Course Resources",
     "section": "",
-    "text": "This page lists resources and materials that we’ll be using in the course. At the bottom, we point you to further resources that might be of interest.\nNote that some of the listed resources are dynamic and ever changing. That means occasionally links might not work, sites go offline, chapters in online books get re-arranged, etc. If you notice anything that’s not quite right, let us know.\n\nPapers\n\nSimulation Modelling for Immunologists. An introduction we wrote on the topic. You will see a lot of overlap between that paper and the course materials. You might want to read the paper before the course, then maybe re-read a few more times during and after the course.\nWe’ll mention primary research papers in the course. For your convenience, this zip file contains most of those references (and some more that we might not get around to talking about).\n\n\n\nSoftware\n\nWe’ll be using R and the Dynamical Systems Approach to Immune Response Modeling (DSAIRM) package for the course. We also recommend installing and using RStudio. For more details on how to download and install all needed software, see the links in the Schedule page.\n\n\n\nOther online materials\n\nThe majority of materials for the course are on our Simulation Modeling in Immunology (SMI) website. You’ll find materials from this and prior years there.\n\n\n\nFurther Resources\n\nWe have moved a listin of further resources to the Resources section of the SMI website.\nFor a list of terms that are commonly used in Immunology and Modeling see this Glossary on the SMI website."
+    "text": "This page lists resources and materials that we’ll be using in the course. At the bottom, we point you to further resources that might be of interest.\nNote that some of the listed resources are dynamic and ever changing. That means occasionally links might not work, sites go offline, chapters in online books get re-arranged, etc. If you notice anything that’s not quite right, let us know.\n\nOnline materials\n\nMaterials from previous years, including video recordings and lecture slides, as well as some related materials that go beyond what we cover in the course can be found on our Simulation Modeling in Immunology (SMI) website. That website also contains a listing of further resources and\na list of terms that are commonly used in Immunology and Modeling.\n\n\n\nPapers\n\nSimulation Modelling for Immunologists. An introduction we wrote on the topic. You will see a lot of overlap between that paper and the course materials. You might want to read the paper before the course, then maybe re-read a few more times during and after the course.\nWe’ll mention primary research papers in the course. For your convenience, this zip file contains most of those references (and some more that we might not get around to talking about).\n\n\n\nSoftware\n\nWe’ll be using R and the Dynamical Systems Approach to Immune Response Modeling (DSAIRM) package for the course. We also recommend installing and using RStudio. For more details on how to download and install all needed software, see the links in the Schedule page."
   },
   {
     "objectID": "Course_Syllabus.html",
     "href": "Course_Syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Instructors: Paul Thomas and Andreas Handel\nCourse Meeting Time and Location: 2024-07-17 - 2024-07-19, Atlanta, GA"
+    "text": "Instructors: Paul Thomas and Andreas Handel\nCourse Meeting Time and Location: See Schedule"
   },
   {
     "objectID": "Course_Syllabus.html#course-information",
     "href": "Course_Syllabus.html#course-information",
     "title": "Syllabus",
     "section": "",
-    "text": "Instructors: Paul Thomas and Andreas Handel\nCourse Meeting Time and Location: 2024-07-17 - 2024-07-19, Atlanta, GA"
+    "text": "Instructors: Paul Thomas and Andreas Handel\nCourse Meeting Time and Location: See Schedule"
   },
   {
     "objectID": "Course_Syllabus.html#textbook-and-other-course-material",
@@ -305,7 +305,7 @@
     "href": "Course_Syllabus.html#course-description",
     "title": "Syllabus",
     "section": "Course Description",
-    "text": "Course Description\nThis course provides an introduction to simulation modeling of pathogens and the immune response on the within-host level. You will learn the basic biology and immunology of several common pathogens. You will also learn about simulation models and how they can be used to study pathogen and immune response dynamics within an infected host. This course is an introductory overview course. Due to time limitations, we we will not be able to go very deep into either the biology/immunology side of things or the modeling/coding side of things. But you are certainly welcome and encouraged to dig deeper, and we will provide information and resources to allow you to learn more about the topics we cover."
+    "text": "Course Description\nThis course provides an introduction to simulation modeling of pathogens and the immune response on the within-host level.\nYou will learn the basic biology and immunology of several common pathogens. You will also learn about simulation models and how they can be used to study pathogen and immune response dynamics within an infected host.\nThis course is an introductory overview course. Due to time limitations, we we will not be able to go very deep into either the biology/immunology side of things or the modeling/coding side of things. But you are certainly welcome and encouraged to dig deeper, and we will provide information and resources to allow you to learn more about the topics we cover."
   },
   {
     "objectID": "Course_Syllabus.html#grading",
@@ -319,14 +319,14 @@
     "href": "Course_Syllabus.html#class-attendance",
     "title": "Syllabus",
     "section": "Class Attendance",
-    "text": "Class Attendance\nAttendance is not required, but we hope you will attend all sessions.\nWe also hope that you will be an active participant and ask questions, join discussions, and contribute in any way you feel willing and able."
+    "text": "Class Attendance\nAttendance is not required, but we hope you will attend all sessions. We also hope that you will be an active participant and ask questions, join discussions, and contribute in any way you feel willing and able."
   },
   {
     "objectID": "Course_Syllabus.html#prerequisites",
     "href": "Course_Syllabus.html#prerequisites",
     "title": "Syllabus",
     "section": "Prerequisites",
-    "text": "Prerequisites\nWe assume you have some basic biological and computer literacy. Some of you may know a good bit of immunology, or have solid statistical, modeling or coding experience. We understand everyone will come with different skill sets. Since this is an introductory course, we try to make things as understandable as possible for everyone. That means that some of the material might be too basic for you, will others will be new to you (and likely challenging).\nWe “promise” that you will feel bored and you will feel lost at least once during the course 😁. We hope that you will still find the majority of the material we teach interesting and helpful. Please don’t hesitate to give us feedback during the course (in real time) if you think we are going too slow or too fast."
+    "text": "Prerequisites\nWe assume you have some basic biological and computer literacy. Some of you may know a good bit of immunology, or have solid statistical, modeling or coding experience. We understand everyone will come with different skill sets. Since this is an introductory course, we try to make things as understandable as possible for everyone. That means that some of the material might be too basic for you, will others will be new to you (and likely challenging).\nWe “promise” that you will be both bored and confused at least once during the course 😁. We hope that you will still find the majority of the material we teach interesting and helpful. Please don’t hesitate to give us feedback during the course (in real time) if you think we are going too slow or too fast, or could otherwise improve."
   },
   {
     "objectID": "Course_Syllabus.html#getting-help",

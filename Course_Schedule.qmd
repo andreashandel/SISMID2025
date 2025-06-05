@@ -37,7 +37,7 @@ _Please go through the tasks below to come prepared to the class._
 ### Software
 
 * Install and set up R and Rstudio. Follow the instructions [on the RStudio page.](https://posit.co/download/rstudio-desktop/). If you need a few more details, [here are some additional brief instructions](https://andreashandel.github.io/SMIcourse/R_and_RStudio.html).
-- Set up and learn about DSAIRM. Go through all the content under _Modeling -> DSAIRM_ [on the SMI website](https://andreashandel.github.io/SMIcourse/index.html).
+- Set up and learn about DSAIRM. Go through the content under _Modeling -> DSAIRM_ [on the SMI website](https://andreashandel.github.io/SMIcourse/index.html).
 * If you can, take an initial look at these apps in DSAIRM: __Basic Bacteria Model__ and __Basic Virus Model__. Play around with them and go through (some of) the tasks to get familiar with DSAIRM.
 
 
