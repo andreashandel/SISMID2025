@@ -32,7 +32,7 @@ _Please go through the tasks below to come prepared to the class._
 
 * Familiarize yourself with this website. Read through all of it.
 * Take a brief look at the companion [Simulation Modeling for Immunology (SMI) website](https://andreashandel.github.io/SMIcourse/).
-* Browse through our paper [Simulation Modelling for Immunologists](./files/2020-handel-natrevimm.pdf).
+* Browse through our paper [Simulation Modelling for Immunologists](files/2020-handel-natrevimm.pdf).
 
 ### Software
 
@@ -58,7 +58,7 @@ Unit 2, 3.30PM – 5PM: Introduction to Immunology (Paul) - [Slides](slides/2025
 
 [Homework for tomorrow:]{.underline}
 
-* If you haven't already, take a look at the __Basic Virus Model__ and __Basic Bacteria Model__ apps in DSAIRM and go through - in as much detail as you have time - the "What to do" tasks. You can try yourself first, or walk through it with the help of the solutions: [Basic Virus solution](https://andreashandel.github.io/SISMID2025/files/basicvirus_solution.html), [Basic Bacteria solution](https://andreashandel.github.io/SISMID2025/files/basicbacteria_solution.html).
+* If you haven't already, take a look at the __Basic Virus Model__ and __Basic Bacteria Model__ apps in DSAIRM and go through - in as much detail as you have time - the "What to do" tasks. You can try yourself first, or walk through it with the help of the solutions: [Basic Virus solution](files/basicvirus_solution.html), [Basic Bacteria solution](files/basicbacteria_solution.html).
 * Take an especially close look at the task 6 of the _Basic Bacteria_ app and the solution code for it, we will use a similar approach tomorrow.
 
 
