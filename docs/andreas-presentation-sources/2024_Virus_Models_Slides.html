@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Andreas Handel">
+<meta name="dcterms.date" content="2025-06-27">
 <meta name="description" content="Website for the 2024 SISMID Module on Infectious Diseases, Immunology and Within-Host Models.">
 
-<title>Syllabus – SISMID 2025</title>
+<title>Viral Infection models – SISMID 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,28 +26,28 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//files/sismid-logo-horizontal-2024.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-255bb9699565efef3b08de918ab85faf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8bc3ca8b3c8143ff68262f8fd8ee4c47.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-255bb9699565efef3b08de918ab85faf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//files/sismid-logo-horizontal-2024.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-255bb9699565efef3b08de918ab85faf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-8bc3ca8b3c8143ff68262f8fd8ee4c47.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-255bb9699565efef3b08de918ab85faf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,10 +76,39 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -246,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SISMID 2025</span>
     </a>
   </div>
@@ -257,23 +288,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./Course_Syllabus.html" aria-current="page"> 
+    <a class="nav-link" href="../Course_Syllabus.html"> 
 <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Course_Schedule.html"> 
+    <a class="nav-link" href="../Course_Schedule.html"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Course_Communication.html"> 
+    <a class="nav-link" href="../Course_Communication.html"> 
 <span class="menu-text">Communication</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Course_Resources.html"> 
+    <a class="nav-link" href="../Course_Resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Course_Project.html"> 
+    <a class="nav-link" href="../Course_Project.html"> 
 <span class="menu-text">Project</span></a>
   </li>  
 </ul>
@@ -288,21 +319,34 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="2024_Virus_Models_Slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Syllabus</h1>
+<h1 class="title">Viral Infection models</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://www.andreashandel.com">Andreas Handel</a> </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 27, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -312,43 +356,266 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="course-information" class="level2">
-<h2 class="anchored" data-anchor-id="course-information">Course Information</h2>
+<section id="basic-acute-virus-infection-model" class="level2">
+<h2 class="anchored" data-anchor-id="basic-acute-virus-infection-model">Basic acute virus infection model</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./media/emptyvirusdiagram.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><span class="math display">\[
+\begin{aligned}
+\textrm{Uninfected Cells} \qquad \dot{U} &amp; =  ? \\
+\textrm{Infected Cells} \qquad \dot{I} &amp; =  ? \\     
+\textrm{Virus} \qquad  \dot{V} &amp; =  ?
+\end{aligned}
+\]</span></p>
+</section>
+<section id="basic-acute-virus-infection-model-1" class="level2">
+<h2 class="anchored" data-anchor-id="basic-acute-virus-infection-model-1">Basic acute virus infection model</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./media/virusdiagram.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><span class="math display">\[
+\begin{aligned}
+\textrm{Uninfected Cells} \qquad \dot{U} &amp; =   - bUV \\
+\textrm{Infected Cells} \qquad \dot{I} &amp; =  bUV - d_I I \\     
+\textrm{Virus} \qquad  \dot{V} &amp; =  pI - d_V V -  bg UV
+\end{aligned}
+\]</span></p>
+</section>
+<section id="basic-chronic-virus-infection-model" class="level2">
+<h2 class="anchored" data-anchor-id="basic-chronic-virus-infection-model">Basic chronic virus infection model</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./media/chronicvirusmodel.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><span class="math display">\[
+\begin{aligned}
+\textrm{Uninfected Cells} \qquad \dot{U} &amp; = \color{blue}{n -d_U U} - bUV \\
+\textrm{Infected Cells} \qquad \dot{I} &amp; =  bUV - d_I I \\     
+\textrm{Virus} \qquad  \dot{V} &amp; =  pI - d_V V -  bg UV
+\end{aligned}
+\]</span></p>
+</section>
+<section id="basic-virus-infection-models" class="level2">
+<h2 class="anchored" data-anchor-id="basic-virus-infection-models">Basic virus infection models</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./media/virusmodels.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Dynamics of simple viral infection models. A) acute infection. B) chronic infection.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="notation-variability" class="level2">
+<h2 class="anchored" data-anchor-id="notation-variability">Notation variability</h2>
 <ul>
-<li>Instructors: Paul Thomas and Andreas Handel</li>
-<li>Course Meeting Time and Location: See <a href="./Course_Schedule.html">Schedule</a></li>
+<li>I’m trying to use the same letters for variables and parameters in these materials.</li>
+<li>If you read the literature, you’ll see all kinds of variants.</li>
+</ul>
+<p><span class="math display">\[
+\dot{T} = s - uT - \beta T V \\
+\dot{T^*}  =  \beta T V - d T^* \\
+\dot{V}  =  NdT^* - c V -  \beta g TV
+\]</span> <span class="math display">\[
+\dot{x} = \lambda - dx - \beta x v \\
+\dot{y}  =  \beta x v - a y \\
+\dot{v}  =  \kappa y - u v -  \beta g xv
+\]</span></p>
+</section>
+<section id="diagrams-and-models" class="level2">
+<h2 class="anchored" data-anchor-id="diagrams-and-models">Diagrams and Models</h2>
+<ul>
+<li>It is important to go back and forth between words, diagrams, equations.</li>
+<li>Diagrams specify a model somewhat, but not completely.</li>
 </ul>
 </section>
-<section id="textbook-and-other-course-material" class="level2">
-<h2 class="anchored" data-anchor-id="textbook-and-other-course-material">Textbook and Other Course Material</h2>
-<p>All course materials are provided. We link to all materials you need and explain how to get them.</p>
+<section id="diagrams-and-models-1" class="level2">
+<h2 class="anchored" data-anchor-id="diagrams-and-models-1">Diagrams and Models</h2>
+<p>The virus model diagram could be implemented as continuous or discrete (or stochastic) model.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./media/chronicvirusmodel.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><span class="math display">\[
+\begin{aligned}
+\dot{U} &amp; = n -d_U U - bUV \\
+\dot{I} &amp; =  bUV - d_I I \\     
+\dot{V} &amp; =  pI - d_V V -  bg UV
+\end{aligned}
+\]</span></p>
+<p><span class="math display">\[
+\begin{aligned}
+U_{t+dt} &amp; = U_{t} + dt(n -d_U U_t - bU_tV_t) \\
+I_{t+dt} &amp; = I_{t} + dt( bU_tV_t - d_I I_t )\\     
+V_{t+dt} &amp; = V_{t} + dt( pI_t - d_V V_t -  bg U_t V_t )
+\end{aligned}
+\]</span></p>
 </section>
-<section id="course-description" class="level2">
-<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>This course provides an introduction to simulation modeling of pathogens and the immune response on the within-host level.</p>
-<p>You will learn the basic biology and immunology of several common pathogens. You will also learn about simulation models and how they can be used to study pathogen and immune response dynamics within an infected host.</p>
-<p>This course is an introductory overview course. Due to time limitations, we we will not be able to go very deep into either the biology/immunology side of things or the modeling/coding side of things. But you are certainly welcome and encouraged to dig deeper, and we will provide information and resources to allow you to learn more about the topics we cover.</p>
+<section id="model-exploration" class="level2">
+<h2 class="anchored" data-anchor-id="model-exploration">Model Exploration</h2>
+<p>Explore the “Basic Virus Model” app in DSAIRM</p>
 </section>
-<section id="grading" class="level2">
-<h2 class="anchored" data-anchor-id="grading">Grading</h2>
-<p>This course has no grades. You will get a certificate of completion at the end.</p>
+<section id="virus-and-immune-response-models" class="level2">
+<h2 class="anchored" data-anchor-id="virus-and-immune-response-models">Virus and Immune Response Models</h2>
+<ul>
+<li>The immune response is incredibly complex, we still don’t know how to model it in much detail.</li>
+<li>We can nevertheless build and explore models that are a (hopefully) good balance between realism and abstraction.</li>
+</ul>
 </section>
-<section id="class-attendance" class="level2">
-<h2 class="anchored" data-anchor-id="class-attendance">Class Attendance</h2>
-<p>Attendance is not required, but we hope you will attend all sessions. We also hope that you will be an active participant and ask questions, join discussions, and contribute in any way you feel willing and able.</p>
+<section id="virus-and-immune-response-model-1" class="level2">
+<h2 class="anchored" data-anchor-id="virus-and-immune-response-model-1">Virus and Immune Response Model 1</h2>
+<ul>
+<li><strong>U</strong> - uninfected cells</li>
+<li><strong>I</strong> - infected cells</li>
+<li><strong>V</strong> - (free) virus</li>
+<li><strong>F</strong> - innate (interferon) response</li>
+<li><strong>T</strong> - adaptive (T-cell) response</li>
+</ul>
 </section>
-<section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<p>We assume you have some basic biological and computer literacy. Some of you may know a good bit of immunology, or have solid statistical, modeling or coding experience. We understand everyone will come with different skill sets. Since this is an introductory course, we try to make things as understandable as possible for everyone. That means that some of the material might be too basic for you, will others will be new to you (and likely challenging).</p>
-<p>We “promise” that you will be both bored and confused at least once during the course 😁. We hope that you will still find the majority of the material we teach interesting and helpful. Please don’t hesitate to give us feedback during the course (in real time) if you think we are going too slow or too fast, or could otherwise improve.</p>
+<section id="virus-and-immune-response-model-1-1" class="level2">
+<h2 class="anchored" data-anchor-id="virus-and-immune-response-model-1-1">Virus and Immune Response Model 1</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./media/acutevirusir.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="getting-help" class="level2">
-<h2 class="anchored" data-anchor-id="getting-help">Getting Help</h2>
-<p>If you have questions about any aspect of the course, please do not hesitate to talk to us.</p>
+<section id="virus-and-immune-response-model-1-2" class="level2">
+<h2 class="anchored" data-anchor-id="virus-and-immune-response-model-1-2">Virus and Immune Response Model 1</h2>
+<span class="math display">\[\begin{aligned}
+\dot U &amp; = - b U V  \\
+\dot I &amp; = b U V - d_I I - k_T T I   \\
+\dot V &amp; = \frac{p}{1+k_F F}I - d_V V - gb UV \\
+\dot F &amp; = r_F I - d_F F \\
+\dot T &amp; = r_T T F - d_T T
+\end{aligned}\]</span>
 </section>
-<section id="course-outline" class="level2">
-<h2 class="anchored" data-anchor-id="course-outline">Course Outline</h2>
-<p>For an outline of the course, please see the course <strong>Schedule</strong> document.</p>
+<section id="virus-and-immune-response-model-2" class="level2">
+<h2 class="anchored" data-anchor-id="virus-and-immune-response-model-2">Virus and Immune Response Model 2</h2>
+<ul>
+<li><strong>U</strong> - uninfected cells</li>
+<li><strong>I</strong> - infected cells</li>
+<li><strong>V</strong> - (free) virus</li>
+<li><strong>F</strong> - innate (interferon) response</li>
+<li><strong>T</strong> - adaptive (T-cell) response</li>
+</ul>
+</section>
+<section id="virus-and-immune-response-model-2-1" class="level2">
+<h2 class="anchored" data-anchor-id="virus-and-immune-response-model-2-1">Virus and Immune Response Model 2</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./media/chronicvirusir.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="virus-and-immune-response-model-2-2" class="level2">
+<h2 class="anchored" data-anchor-id="virus-and-immune-response-model-2-2">Virus and Immune Response Model 2</h2>
+<span class="math display">\[\begin{aligned}
+\dot U &amp; = n - d_U U - b U V  \\
+\dot I &amp; = bUV - d_I I - k_T T I   \\
+\dot V &amp; = \frac{p}{1+k_F F}I - d_V V - gb UV \\
+\dot F &amp; = r_F I - d_F F \\
+\dot T &amp; = r_T T V - d_T T
+\end{aligned}\]</span>
+</section>
+<section id="models-1-and-2" class="level2">
+<h2 class="anchored" data-anchor-id="models-1-and-2">Models 1 and 2</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<span class="math display">\[\begin{aligned}
+\dot U &amp; = - b U V  \\
+\dot I &amp; = b U V - d_I I - k_T T I   \\
+\dot V &amp; = \frac{p}{1+k_F F}I - d_V V - gb UV \\
+\dot F &amp; = r_F I - d_F F \\
+\dot T &amp; = r_T T F - d_T T
+\end{aligned}\]</span>
+</div><div class="column" style="width:50%;">
+<span class="math display">\[\begin{aligned}
+\dot U &amp; = \color{blue}{n - d_U U} - b U V  \\
+\dot I &amp; = bUV - d_I I - k_T T I   \\
+\dot V &amp; = \frac{p}{1+k_F F}I - d_V V - gb UV \\
+\dot F &amp; = r_F I - d_F F \\
+\dot T &amp; = \color{blue}{r_T T V} - d_T T
+\end{aligned}\]</span>
+</div>
+</div>
+</section>
+<section id="virus-and-immune-response-model-3" class="level2">
+<h2 class="anchored" data-anchor-id="virus-and-immune-response-model-3">Virus and Immune Response Model 3</h2>
+<ul>
+<li><strong>U</strong> - uninfected cells</li>
+<li><strong>I</strong> - infected cells</li>
+<li><strong>V</strong> - (free) virus</li>
+<li><strong>F</strong> - innate immune response</li>
+<li><strong>T</strong> - CD8 T-cells</li>
+<li><strong>B</strong> - B-cells</li>
+<li><strong>A</strong> - Antibodies</li>
+</ul>
+</section>
+<section id="model-diagram" class="level2">
+<h2 class="anchored" data-anchor-id="model-diagram">Model Diagram</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./media/virusandIRmodel.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="model-equations" class="level2">
+<h2 class="anchored" data-anchor-id="model-equations">Model Equations</h2>
+<p><span class="math display">\[
+\dot U = n - d_U U - bUV\\
+\dot I = bUV - d_I I - k_T T I\\
+\dot V = \frac{pI}{1+s_F F} - d_V V - b UV - k_A AV \\
+\dot F = p_F - d_F F + \frac{V}{V+ h_V}g_F(F_{max}-F)  \\
+\dot T = F V g_T + r_T T\\
+\dot B = \frac{F V}{F V + h_F} g_B B \\
+\dot A = r_A B - d_A A - k_A A V
+\]</span></p>
+</section>
+<section id="model-exploration-1" class="level2">
+<h2 class="anchored" data-anchor-id="model-exploration-1">Model Exploration</h2>
+<p>Explore any/all of the “IR” models in the virus models section</p>
+<!-- ## Homework -->
+<!-- * If you haven't already, take a look at the "Basic Bacteria Model" app and - in as much detail as you have time - go through the "What to do" tasks. You can try yourself first, or look at the solution right away. -->
+<!-- * Take an especially close look at the solution for task 6, we will use a similar approach tomorrow. -->
+<!-- * Link to solution file is in the schedule of the class website.  -->
 
 
 </section>

@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Andreas Handel">
+<meta name="dcterms.date" content="2025-06-27">
 <meta name="description" content="Website for the 2024 SISMID Module on Infectious Diseases, Immunology and Within-Host Models.">
 
-<title>Syllabus – SISMID 2025</title>
+<title>Fitting and multi-scale modeling example – SISMID 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,28 +26,28 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//files/sismid-logo-horizontal-2024.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-255bb9699565efef3b08de918ab85faf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8bc3ca8b3c8143ff68262f8fd8ee4c47.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-255bb9699565efef3b08de918ab85faf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//files/sismid-logo-horizontal-2024.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-255bb9699565efef3b08de918ab85faf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-8bc3ca8b3c8143ff68262f8fd8ee4c47.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-255bb9699565efef3b08de918ab85faf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,10 +76,39 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -246,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SISMID 2025</span>
     </a>
   </div>
@@ -257,23 +288,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./Course_Syllabus.html" aria-current="page"> 
+    <a class="nav-link" href="../Course_Syllabus.html"> 
 <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Course_Schedule.html"> 
+    <a class="nav-link" href="../Course_Schedule.html"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Course_Communication.html"> 
+    <a class="nav-link" href="../Course_Communication.html"> 
 <span class="menu-text">Communication</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Course_Resources.html"> 
+    <a class="nav-link" href="../Course_Resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Course_Project.html"> 
+    <a class="nav-link" href="../Course_Project.html"> 
 <span class="menu-text">Project</span></a>
   </li>  
 </ul>
@@ -288,21 +319,34 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="2024_Multiscale_Fitting_Project.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Syllabus</h1>
+<h1 class="title">Fitting and multi-scale modeling example</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://www.andreashandel.com">Andreas Handel</a> </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 27, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -312,45 +356,304 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="course-information" class="level2">
-<h2 class="anchored" data-anchor-id="course-information">Course Information</h2>
+<section id="multi-scale-models" class="level1">
+<h1>Multi-scale models</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <ul>
-<li>Instructors: Paul Thomas and Andreas Handel</li>
-<li>Course Meeting Time and Location: See <a href="./Course_Schedule.html">Schedule</a></li>
+<li>Infectious diseases operate on different temporal and spatial scales.</li>
+<li>Building models that connect scales can allow one to answer new questions.</li>
+</ul>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./media/multiscale_fig.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Handel &amp; Rohani 2015 PTB</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="ways-to-model-interactions-across-scales" class="level2">
+<h2 class="anchored" data-anchor-id="ways-to-model-interactions-across-scales">Ways to model interactions across scales</h2>
+<ul>
+<li>Static: A within-host model is analyzed/simulated. Results are being fed into a between-host model, which is subsequently being run.</li>
+<li>Dynamic: A within-host model is being simulated inside a between-host model. Requires an ABM for the between-host model, each agent has its own infection model running.</li>
 </ul>
 </section>
-<section id="textbook-and-other-course-material" class="level2">
-<h2 class="anchored" data-anchor-id="textbook-and-other-course-material">Textbook and Other Course Material</h2>
-<p>All course materials are provided. We link to all materials you need and explain how to get them.</p>
+<section id="simple-example-model" class="level2">
+<h2 class="anchored" data-anchor-id="simple-example-model">Simple example model</h2>
+<ul>
+<li><p>It is easiest to discuss multi-scale models in the context of an example.</p></li>
+<li><p>Let’s consider the dynamics of an acute viral infection (e.g.&nbsp;influenza) at the within-host and the population level.</p></li>
+</ul>
 </section>
-<section id="course-description" class="level2">
-<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>This course provides an introduction to simulation modeling of pathogens and the immune response on the within-host level.</p>
-<p>You will learn the basic biology and immunology of several common pathogens. You will also learn about simulation models and how they can be used to study pathogen and immune response dynamics within an infected host.</p>
-<p>This course is an introductory overview course. Due to time limitations, we we will not be able to go very deep into either the biology/immunology side of things or the modeling/coding side of things. But you are certainly welcome and encouraged to dig deeper, and we will provide information and resources to allow you to learn more about the topics we cover.</p>
+<section id="within-host-model" class="level2">
+<h2 class="anchored" data-anchor-id="within-host-model">Within-host model</h2>
+<p>At the within host level, we can start with the basic virus model.</p>
+<p><span class="math display">\[
+\begin{aligned}
+\dot{U} &amp; =  n - d_UU - bUV \\
+\dot{I} &amp; =  bUV - d_I I \\     
+\dot{V} &amp; =  pI - d_V V -  gb UV \\
+\end{aligned}
+\]</span></p>
 </section>
-<section id="grading" class="level2">
-<h2 class="anchored" data-anchor-id="grading">Grading</h2>
-<p>This course has no grades. You will get a certificate of completion at the end.</p>
+<section id="between-host-model" class="level2">
+<h2 class="anchored" data-anchor-id="between-host-model">Between-host model</h2>
+<ul>
+<li>At the population level, we’ll look at the standard SIR model, with compartments being susceptible, infected and infectious, and recovered.</li>
+<li>To avoid confusion, we give all the parameters on the population level model Greek letters.</li>
+</ul>
+<p><span class="math display">\[
+\begin{aligned}
+\dot S &amp; = \nu - \mu S - \beta SI   \\
+\dot I &amp; = \beta S I - \gamma I - \mu I \\
+\dot R &amp; = \gamma I  - \mu R  \\
+\end{aligned}
+\]</span></p>
 </section>
-<section id="class-attendance" class="level2">
-<h2 class="anchored" data-anchor-id="class-attendance">Class Attendance</h2>
-<p>Attendance is not required, but we hope you will attend all sessions. We also hope that you will be an active participant and ask questions, join discussions, and contribute in any way you feel willing and able.</p>
+<section id="linking-models" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="linking-models">Linking models</h2>
+<ul>
+<li>Assume transmission rate is linked to virus load through some function that maps virus to between-host transmission <span class="math inline">\(\beta = f(V)\)</span>.</li>
+</ul>
+<p><span class="math display">\[
+\begin{aligned}
+\dot S &amp; = \nu - \mu S - \mathbf{f(V)} SI   \\
+\dot I &amp; = \mathbf{f(V)} S I - \gamma I - \mu I \\
+\dot R &amp; = \gamma I  - \mu R  \\
+\end{aligned}
+\]</span></p>
+<p><span class="math display">\[
+\begin{aligned}
+\dot{U} &amp; =  n - d_UU - bUV \\
+\dot{I} &amp; =  bUV - d_I I \\     
+\dot{ \mathbf{V} } &amp; =  pI - d_V V -  gb UV \\
+\end{aligned}
+\]</span></p>
+<p>Now the between-host model is connected to the within-host model through the variable <span class="math inline">\(V\)</span>.</p>
 </section>
-<section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<p>We assume you have some basic biological and computer literacy. Some of you may know a good bit of immunology, or have solid statistical, modeling or coding experience. We understand everyone will come with different skill sets. Since this is an introductory course, we try to make things as understandable as possible for everyone. That means that some of the material might be too basic for you, will others will be new to you (and likely challenging).</p>
-<p>We “promise” that you will be both bored and confused at least once during the course 😁. We hope that you will still find the majority of the material we teach interesting and helpful. Please don’t hesitate to give us feedback during the course (in real time) if you think we are going too slow or too fast, or could otherwise improve.</p>
+<section id="ways-to-link-the-scalesmodels" class="level2">
+<h2 class="anchored" data-anchor-id="ways-to-link-the-scalesmodels">Ways to link the scales/models</h2>
+<ul>
+<li>For a chronic infection model, we can compute virus at steady state (<span class="math inline">\(V_s\)</span>) as function of model parameters.</li>
+</ul>
+<p><span class="math display">\[\beta = kV_s\]</span></p>
+<p><span class="math display">\[V_s = \frac{n(p-d_Ig)}{d_Id_V}-\frac{d_U}{b}\]</span></p>
+<ul>
+<li>Changes in the within-host parameters now impact the between-host dynamics.</li>
+</ul>
 </section>
-<section id="getting-help" class="level2">
-<h2 class="anchored" data-anchor-id="getting-help">Getting Help</h2>
-<p>If you have questions about any aspect of the course, please do not hesitate to talk to us.</p>
+<section id="ways-to-link-the-scalesmodels-1" class="level2">
+<h2 class="anchored" data-anchor-id="ways-to-link-the-scalesmodels-1">Ways to link the scales/models</h2>
+<ul>
+<li>For an acute infection model, we could assume transmission is proportional to total virus load.</li>
+</ul>
+<p><span class="math display">\[
+\beta = k \log \left( \int_0^D V(t) dt \right)
+\]</span></p>
+<ul>
+<li>Again, changes of the within-host parameters impact the between-host dynamics. But we don’t have an explicit mathematical expression.</li>
+</ul>
 </section>
-<section id="course-outline" class="level2">
-<h2 class="anchored" data-anchor-id="course-outline">Course Outline</h2>
-<p>For an outline of the course, please see the course <strong>Schedule</strong> document.</p>
+<section id="using-the-linked-models-to-answer-a-question" class="level2">
+<h2 class="anchored" data-anchor-id="using-the-linked-models-to-answer-a-question">Using the linked models to answer a question</h2>
+<ul>
+<li><p>We could now answer questions such as: Does increased virus infection rate (parameter <span class="math inline">\(b\)</span>) lead to a larger outbreak on the population level?</p></li>
+<li><p>For a chronic infection, we can see it from the equation: <span class="math display">\[V = \frac{n(p-d_Ig)}{d_Id_V}-\frac{d_U}{b}\]</span></p></li>
+<li><p>For an acute infection, we would need to run simulations.</p></li>
+</ul>
+</section>
+<section id="other-ways-to-link-the-scalesmodels" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="other-ways-to-link-the-scalesmodels">Other ways to link the scales/models</h2>
+<ul>
+<li>We could also assume that the duration of the infectious period (<span class="math inline">\(1/\gamma\)</span>) is determined by the time at which <span class="math inline">\(V\)</span> in the within host model drops below a certain level (e.g.&nbsp;1 virion).</li>
+<li>To investigate this:
+<ul>
+<li>Set within-host model parameters. Run model. Determine time at which <span class="math inline">\(V&lt;1\)</span> from time-series.</li>
+<li>Use that time as <span class="math inline">\(1/\gamma\)</span> in the between-host model.</li>
+</ul></li>
+</ul>
+<p><span class="math display">\[
+\begin{aligned}
+\dot S &amp; = \nu - \mu S - \beta SI   \\
+\dot I &amp; = \beta S I - \gamma I - \mu I \\
+\dot R &amp; = \gamma I  - \mu R  \\
+\end{aligned}
+\]</span></p>
+</section>
+<section id="closing-the-loop" class="level2">
+<h2 class="anchored" data-anchor-id="closing-the-loop">Closing the loop</h2>
+<ul>
+<li>So far, we assumed that the lower scale (within-host) affects the higher scale (between-host).</li>
+<li>One could also consider the population level dynamics to impact the within-host level. E.g. if we had a new (flu) strain spreading on the population level which can partially avoid pre-existing immunity, it might impact the within-host dynamics.</li>
+<li>It gets complicated. One either needs to break down the pieces and look at them individually, or put them all in one large simulation.</li>
+</ul>
+</section>
+</section>
+<section id="fitting-mechanistic-models-to-data" class="level1">
+<h1>Fitting mechanistic models to data</h1>
+<section id="model-fitting" class="level2">
+<h2 class="anchored" data-anchor-id="model-fitting">Model fitting</h2>
+<ul>
+<li>We build models based on what we assume/know goes on in a specific system.</li>
+<li>We can use models to explore and make predictions.</li>
+<li>At some point, we need to bring our model results in contact with data to see how our model performs.</li>
+<li>Ideally, the whole process is iterative.<br>
+</li>
+<li>Main uses of model fitting is to test hypotheses and estimate parameters.</li>
+</ul>
+</section>
+<section id="hypothesis-testing-with-non-mechanistic-models" class="level2">
+<h2 class="anchored" data-anchor-id="hypothesis-testing-with-non-mechanistic-models">Hypothesis testing with non-mechanistic models</h2>
+<ul>
+<li>We usually test hypotheses by collecting data and performing statistical tests to see if there is a pattern (H1) or not (H0).</li>
+<li>The statistical tests can discriminate between no pattern and some kind of pattern/correlation.</li>
+<li>If data was collected properly, one can often conclude that there is a causal link. But one can’t say much about the mechanisms leading to the observed patterns.</li>
+</ul>
+</section>
+<section id="hypothesis-testing-with-mechanistic-models" class="level2">
+<h2 class="anchored" data-anchor-id="hypothesis-testing-with-mechanistic-models">Hypothesis testing with mechanistic models</h2>
+<ul>
+<li>With mechanistic simulation models, we can directly <strong>test hypotheses/mechanisms:</strong> We can formulate different models, each representing a set of hypotheses/mechanisms. The quality of fit of each model to the date lends support to specific models/mechanisms.</li>
+<li>The mechanism(s) of the best fitting model are more likely to be correct than those of the less good fitting models.</li>
+</ul>
+</section>
+<section id="model-fitting-example" class="level2">
+<h2 class="anchored" data-anchor-id="model-fitting-example">Model fitting example</h2>
+<ul>
+<li><p>Investigate the mechanism of drug action of neuraminidase inhibitors against influenza.</p></li>
+<li><p>The Question: What is the mechanism of action of neuraminidase inhibitors, is it reducing virus production of infected cells or infection of uninfected cells?</p></li>
+<li><p>The approach: build models for each mechanism/hypothesis, fit to data and evaluate.</p></li>
+</ul>
+</section>
+<section id="modelhypothesis-1" class="level2">
+<h2 class="anchored" data-anchor-id="modelhypothesis-1">Model/Hypothesis 1</h2>
+<p>Neuraminidase reduces infection rate of uninfected cells.</p>
+<p><span class="math display">\[
+\begin{aligned}
+\dot{U} &amp; =  - b{\bf(1-f)}UV \\
+\dot{I} &amp; =  b{\bf(1-f)}UV - d_I I \\     
+\dot{V} &amp; =  pI - d_V V -  gb{\bf(1-f)} UV \\
+\end{aligned}
+\]</span></p>
+</section>
+<section id="modelhypothesis-2" class="level2">
+<h2 class="anchored" data-anchor-id="modelhypothesis-2">Model/Hypothesis 2</h2>
+<p>Neuraminidase reduces rate of virus production by infected cells.</p>
+<p><span class="math display">\[
+\begin{aligned}
+\dot{U} &amp; =  - bUV \\
+\dot{I} &amp; =  bUV - d_I I \\     
+\dot{V} &amp; =  p{\bf (1-e)}I - d_V V -  gb UV \\
+\end{aligned}
+\]</span></p>
+</section>
+<section id="model-fits" class="level2">
+<h2 class="anchored" data-anchor-id="model-fits">Model fits</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./media/nri_review_fig4b.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>Handel et al 2020 NRI</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="parameter-estimates" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="parameter-estimates">Parameter estimates</h2>
+<ul>
+<li>By fitting models, we can also <strong>estimate biologically meaningful parameters.</strong></li>
+<li>The parameters in our models often represent important biological quantities, fitting returns estimates for the parameter values.</li>
+<li>For the example, the best-fit estimate e=0.98 means the drug reduces virus production by 98%.</li>
+</ul>
+<p><span class="math display">\[
+\begin{aligned}
+\dot{U} &amp; =  - bUV \\
+\dot{I} &amp; =  bUV - d_I I \\     
+\dot{V} &amp; =  p{\bf (1-e)}I - d_V V -  gb UV \\
+\end{aligned}
+\]</span></p>
+</section>
+<section id="parameter-estimates-1" class="level2">
+<h2 class="anchored" data-anchor-id="parameter-estimates-1">Parameter estimates</h2>
+<ul>
+<li>One can estimate parameters using just a single model. This allows one to test some mechanisms, e.g.&nbsp;we could use one of the models we just looked at and ask if the drug has an effect (e&gt;0) or not (<span class="math inline">\(e\approx 0\)</span>). Fitting a single model and looking at the value of <span class="math inline">\(e\)</span> could answer this.</li>
+<li>To test more complex hypotheses/mechanisms, one often needs several distinct models. If one of the tested models is deemed a good approximation of the real system, the estimates for its parameters can be consider meaningful.</li>
+</ul>
+</section>
+<section id="fitting-comments" class="level2">
+<h2 class="anchored" data-anchor-id="fitting-comments">Fitting comments</h2>
+<ul>
+<li>Fitting mechanistic models is conceptually the same as fitting regression models, but technically more challenging.</li>
+<li>If a non-mechanistic model doesn’t fit well, we mainly just learned that we need a better model.</li>
+<li>If a mechanistic model that was built based on our best knowledge doesn’t fit well, we have learned something useful!</li>
+</ul>
+</section>
+<section id="fitting-comments-1" class="level2">
+<h2 class="anchored" data-anchor-id="fitting-comments-1">Fitting comments</h2>
+<div style="float: left; width: 50%;">
+<ul>
+<li>If a model is <em>best</em> among a group of models, it can still be <em>bad</em>.</li>
+<li>Complex models with many parameters can provide good fits for spurious reasons.</li>
+<li>It is important to keep models simple to prevent overfitting.</li>
+</ul>
+</div>
+<div style="float: right; width: 50%;">
+<p><em>With four parameters I can fit an elephant, and with five I can make him wiggle his trunk.</em></p>
+<p>John von Neumann</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./media/elephant.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>https://bit.ly/31UB3v9</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="fitting---practice" class="level2">
+<h2 class="anchored" data-anchor-id="fitting---practice">Fitting - practice</h2>
+<ul>
+<li>The <em>Influenza Drug model</em> in DSAIRM shows the example we just went through. It doesn’t go into details of fitting.</li>
+<li>The apps in the <em>Model fitting</em> section of DSAIRM teach some concepts of model fitting.</li>
+</ul>
+</section>
+</section>
+<section id="a-worked-example" class="level1">
+<h1>A worked example</h1>
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<ul>
+<li>Let’s do a pretend modeling project covering the topics we just discussed.</li>
+<li>Our question is: What is the population-level impact of treating individuals at various times post infection with neuraminidase inhibitors?</li>
+</ul>
+</section>
+<section id="hands-on-exercise-1" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="hands-on-exercise-1">Hands-on exercise 1</h2>
+<ul>
+<li>Use the <em>Influenza Drug Model</em> app, fit model 2 to the data and determine the best-fitting parameter values.</li>
+<li>Write code that loops over the treatment starting time, <em>txstart</em>, (say from 0.1 days to 2 days), and for each value of <em>txstart</em>, runs the <code>simulate_virusandtx_ode</code> model and computes the log of the total virus load: <span class="math display">\[V_{tot} = \log \left( \int_0^D V(t) dt \right)\]</span></li>
+<li>All other model parameters should be at the estimated best fit values.</li>
+</ul>
+</section>
+<section id="hands-on-exercise-2" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="hands-on-exercise-2">Hands-on exercise 2</h2>
+<ul>
+<li>Install the ‘DSAIDE’ package.</li>
+<li>Write some code that loops over the parameter <span class="math inline">\(\beta\)</span>, runs the <code>simulate_SIR_model_ode</code> model and computes total outbreak size for each value of <span class="math inline">\(\beta\)</span>.</li>
+<li>Assume that <span class="math inline">\(\beta\)</span> is proportional to the log of the within-host virus load: <span class="math display">\[\beta = \beta_0 V_{tot}/V_{max}\]</span></li>
+<li><span class="math inline">\(V_{max}\)</span> is the total virus load in the absence of treatment. You can get that by running the within-host model for some <em>txstart</em> value that’s the same as the final time.</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

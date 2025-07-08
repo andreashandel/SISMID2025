@@ -2,7 +2,7 @@
 toc: FALSE
 ---
 
-![](files/sismid-logo-horizontal-2024.jpg){width="150px" style="float:right" fig-alt="SISMID logo"}
+![](files/sismid-logo.png){width="150px" style="float:right" fig-alt="SISMID logo"}
 
 
 Welcome to the website for the course/module called [Infectious Diseases, Immunology and Within-Host Models](https://sph.emory.edu/SISMID/modules/infectious-diseases-immunology/index.html), which is part of the [2025 Summer Institute in Statistics and Modeling in Infectious Diseases (SISMID)](https://sph.emory.edu/SISMID/index.html). 

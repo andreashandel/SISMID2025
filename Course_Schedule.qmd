@@ -47,9 +47,11 @@ _Please go through the tasks below to come prepared to the class._
 
 ### **Wednesday 7/16**
 
-Unit 1, 1:30PM – 3PM: Introduction to Immunology (Paul) - [Slides](slides/2025_Introduction_to_Immunology.pdf){target="_blank"}
+Unit 1, 1:30PM – 3PM: Introduction to Modeling (Andreas) - [Slides](slides/2025_Introduction_to_Modeling_Slides.html){target="_blank"}
 
-Unit 2, 3.30PM – 5PM: Introduction to Modeling (Andreas) - [Slides](slides/2025_Introduction_to_Modeling_Slides.html){target="_blank"}
+Unit 2, 3.30PM – 5PM: Introduction to Immunology (Paul) - [Slides](slides/2025_Introduction_to_Immunology.pdf){target="_blank"}
+
+
 
 
 

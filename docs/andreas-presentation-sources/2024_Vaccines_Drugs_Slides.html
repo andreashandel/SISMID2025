@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Andreas Handel">
+<meta name="dcterms.date" content="2025-06-27">
 <meta name="description" content="Website for the 2024 SISMID Module on Infectious Diseases, Immunology and Within-Host Models.">
 
-<title>Syllabus – SISMID 2025</title>
+<title>Modeling vaccines and drugs – SISMID 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,28 +26,28 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//files/sismid-logo-horizontal-2024.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-255bb9699565efef3b08de918ab85faf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8bc3ca8b3c8143ff68262f8fd8ee4c47.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-255bb9699565efef3b08de918ab85faf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//files/sismid-logo-horizontal-2024.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-255bb9699565efef3b08de918ab85faf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-8bc3ca8b3c8143ff68262f8fd8ee4c47.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-255bb9699565efef3b08de918ab85faf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,10 +76,39 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -246,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SISMID 2025</span>
     </a>
   </div>
@@ -257,23 +288,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./Course_Syllabus.html" aria-current="page"> 
+    <a class="nav-link" href="../Course_Syllabus.html"> 
 <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Course_Schedule.html"> 
+    <a class="nav-link" href="../Course_Schedule.html"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Course_Communication.html"> 
+    <a class="nav-link" href="../Course_Communication.html"> 
 <span class="menu-text">Communication</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Course_Resources.html"> 
+    <a class="nav-link" href="../Course_Resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Course_Project.html"> 
+    <a class="nav-link" href="../Course_Project.html"> 
 <span class="menu-text">Project</span></a>
   </li>  
 </ul>
@@ -288,21 +319,34 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="2024_Vaccines_Drugs_Slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Syllabus</h1>
+<h1 class="title">Modeling vaccines and drugs</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://www.andreashandel.com">Andreas Handel</a> </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 27, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -312,43 +356,103 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="course-information" class="level2">
-<h2 class="anchored" data-anchor-id="course-information">Course Information</h2>
+<section id="big-picture" class="level2">
+<h2 class="anchored" data-anchor-id="big-picture">Big picture</h2>
 <ul>
-<li>Instructors: Paul Thomas and Andreas Handel</li>
-<li>Course Meeting Time and Location: See <a href="./Course_Schedule.html">Schedule</a></li>
+<li><p>We generally want to understand pathogen-immune response dynamics with the eventual goal of intervening with drugs or vaccines.</p></li>
+<li><p>Modeling of drugs is a big area. In the pharma industry, this is knows as pharmacometrics (PM/PMX) or pharmacokinetic/pharmacodynamic (PK/PD) modeling. The term Quantitative Systems Pharmacology (QSP) is also used for mechanistic models.</p></li>
 </ul>
 </section>
-<section id="textbook-and-other-course-material" class="level2">
-<h2 class="anchored" data-anchor-id="textbook-and-other-course-material">Textbook and Other Course Material</h2>
-<p>All course materials are provided. We link to all materials you need and explain how to get them.</p>
+<section id="general-idea" class="level2">
+<h2 class="anchored" data-anchor-id="general-idea">General Idea</h2>
+<ul>
+<li>Build a model without an intervention that includes the components you are interested in:
+<ul>
+<li>Pathogen</li>
+<li>Immune Response (optional)</li>
+</ul></li>
+<li>Add drug/treatment into the model</li>
+</ul>
 </section>
-<section id="course-description" class="level2">
-<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>This course provides an introduction to simulation modeling of pathogens and the immune response on the within-host level.</p>
-<p>You will learn the basic biology and immunology of several common pathogens. You will also learn about simulation models and how they can be used to study pathogen and immune response dynamics within an infected host.</p>
-<p>This course is an introductory overview course. Due to time limitations, we we will not be able to go very deep into either the biology/immunology side of things or the modeling/coding side of things. But you are certainly welcome and encouraged to dig deeper, and we will provide information and resources to allow you to learn more about the topics we cover.</p>
+<section id="example-1" class="level2">
+<h2 class="anchored" data-anchor-id="example-1">Example 1</h2>
+<ul>
+<li>IFN treatment for HCV infection</li>
+<li>Question to answer: By what mechanism does the drug work?</li>
+<li>See “Antiviral Treatment Model” in DSAIRM and also the “Influenza Drug Model”.</li>
+</ul>
 </section>
-<section id="grading" class="level2">
-<h2 class="anchored" data-anchor-id="grading">Grading</h2>
-<p>This course has no grades. You will get a certificate of completion at the end.</p>
+<section id="example-1-1" class="level2">
+<h2 class="anchored" data-anchor-id="example-1-1">Example 1</h2>
+<p><img src="./media/hcvifndiagram.png" class="img-fluid"></p>
+<span class="math display">\[\begin{align}
+\dot U &amp; = n - d_U U - \color{red}{(1-f)}bUV \\
+\dot I &amp; = \color{red}{(1-f)}bUV - d_I I \\
+\dot V &amp; = \color{blue}{(1-e)}pI - d_V V - \color{red}{(1-f)}gbUV
+\end{align}\]</span>
+<p>Simplest assumption: Drug effect is constant.</p>
 </section>
-<section id="class-attendance" class="level2">
-<h2 class="anchored" data-anchor-id="class-attendance">Class Attendance</h2>
-<p>Attendance is not required, but we hope you will attend all sessions. We also hope that you will be an active participant and ask questions, join discussions, and contribute in any way you feel willing and able.</p>
+<section id="example-2" class="level2">
+<h2 class="anchored" data-anchor-id="example-2">Example 2</h2>
+<ul>
+<li>Allow the drug concentration to change over time and have an explicit equation for the drug (Pharmacokinetics, PK).</li>
+<li>Have some more complex mapping from drug concentration to drug impact (Pharmacodynamics, PD).</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./media/pkpdmodel.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
 </section>
-<section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<p>We assume you have some basic biological and computer literacy. Some of you may know a good bit of immunology, or have solid statistical, modeling or coding experience. We understand everyone will come with different skill sets. Since this is an introductory course, we try to make things as understandable as possible for everyone. That means that some of the material might be too basic for you, will others will be new to you (and likely challenging).</p>
-<p>We “promise” that you will be both bored and confused at least once during the course 😁. We hope that you will still find the majority of the material we teach interesting and helpful. Please don’t hesitate to give us feedback during the course (in real time) if you think we are going too slow or too fast, or could otherwise improve.</p>
+<section id="example-2-1" class="level2">
+<h2 class="anchored" data-anchor-id="example-2-1">Example 2</h2>
+<span class="math display">\[\begin{align}
+\dot U &amp; = n - d_U U - bUV \\
+\dot I &amp; = bUV - d_I I \\
+\dot V &amp; = (1-e)pI - d_V V - gb UV \\
+\dot C &amp; =  - d_C C, \\
+C &amp; =C+C_0 \textrm{ at } t = t_{interval} \qquad \textrm{(PK)}\\
+e &amp; = E_{max} \frac{C^k}{C^k+C_{50}} \qquad \textrm{(PD)}
+\end{align}\]</span>
+<ul>
+<li>See the “PK/PD” app in DSAIRM.</li>
+</ul>
 </section>
-<section id="getting-help" class="level2">
-<h2 class="anchored" data-anchor-id="getting-help">Getting Help</h2>
-<p>If you have questions about any aspect of the course, please do not hesitate to talk to us.</p>
+<section id="example-3" class="level2">
+<h2 class="anchored" data-anchor-id="example-3">Example 3</h2>
+<p><span class="math display">\[
+\begin{aligned}
+\dot{B} &amp; = g B(1-\frac{B}{B_{max}}) - d_B B - pBI \color{blue}{- f(C)B}\\
+\dot{I} &amp; = r BI - d_I I \\
+\color{blue}{\dot{C}} &amp; \color{blue}{= ?}
+\end{aligned}
+\]</span></p>
+<p>A drug at concentration <span class="math inline">\(C\)</span> leads to extra killing of bacteria (PD). The drug has some time-course (PK).</p>
 </section>
-<section id="course-outline" class="level2">
-<h2 class="anchored" data-anchor-id="course-outline">Course Outline</h2>
-<p>For an outline of the course, please see the course <strong>Schedule</strong> document.</p>
+<section id="example-3-1" class="level2">
+<h2 class="anchored" data-anchor-id="example-3-1">Example 3</h2>
+<p><span class="math display">\[
+\begin{aligned}
+\dot{B} &amp; = g B(1-\frac{B}{B_{max}}) - d_B B - k_IBI  - eB\\
+\dot{I} &amp; = r BI - d_I I \\
+\dot C &amp; =  - d_C C, \qquad C=C+C_0 \textrm{ at } t = t_{interval} \qquad \textrm{(PK)}\\
+e &amp; = E_{max} \frac{C^n}{C^n+C_{50}} \qquad \textrm{(PD)}
+\end{aligned}
+\]</span></p>
+<ul>
+<li>The bad news: This model is not part of DSAIRM.</li>
+<li>The good news: We can build it ourselves! (<strong>DSAIRM Level 3.</strong>)</li>
+</ul>
+</section>
+<section id="hands-on-exercise" class="level2">
+<h2 class="anchored" data-anchor-id="hands-on-exercise">Hands-on exercise</h2>
+<ul>
+<li><p>Get the code/simulation model for the Basic Bacteria model and the PK/PD model, namely <code>simulate_basicbacteria_ode.R</code> and <code>simulate_pkpdmodel_ode.R</code>.</p></li>
+<li><p>Take a look at both R files. All the stuff at the top (any line that starts with <code>#'</code>) is just documentation and you can mostly ignore.</p></li>
+<li><p>Make a copy of <code>simulate_pkpdmodel_ode.R</code>. You can delete the documentation portion. Modify the code by replacing the <span class="math inline">\(U/I/V\)</span> part of the model with the <span class="math inline">\(B/I\)</span> part from the bacteria model.</p></li>
+<li><p>Definitions/letters for some parameters might have changed between apps. Make sure you call/define them correctly.</p></li>
+<li><p>This might be a bit challenging, but we’ll assist.</p></li>
+</ul>
 
 
 </section>
