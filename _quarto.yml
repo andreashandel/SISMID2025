@@ -25,7 +25,6 @@ execute:
   warning: false #don't include warnings in the output
   output: true #include the results of executing the code
   cache: false # don't cache code junks by default
-description-meta: "Website for the 2024 SISMID Module on Infectious Diseases, Immunology and Within-Host Models."
 editor: 
   markdown: 
     wrap: sentence
@@ -34,7 +33,7 @@ website:
   title: "SISMID 2025"
   site-url: "https://andreashandel.github.io/SISMID2025/"
   description: "Website for the 2025 SISMID Module on Infectious Diseases, Immunology and Within-Host Models."
-  favicon: /files/sismid-logo-horizontal-2024.jpg 
+  favicon: /files/sismid-logo.png 
   cookie-consent: false    
   search: true
   navbar:
