@@ -17,12 +17,23 @@ format:
 ---
 
 
+## Approximate virus infection model
+
+
+$$
+\begin{aligned}
+\dot{V} & = g V(1-\frac{V}{V_{max}}) - d_V V - kVI\\
+\dot{I} & = r VI - d_I I
+\end{aligned}
+$$
+
+* Simple.
+* Not very mechanistic.
+* Can lead to patterns that are not too realistic.
 
 ## Basic acute virus infection model
 
-```{r acutevirusdiagram0,  out.width = '70%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("./media/emptyvirusdiagram.png")
-```
+![](./media/emptyvirusdiagram.png){fig-align="center"}
 
 $$
 \begin{aligned}

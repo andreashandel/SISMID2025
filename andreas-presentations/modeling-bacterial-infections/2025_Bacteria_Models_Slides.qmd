@@ -14,7 +14,6 @@ format:
     show-slide-number: all
     auto-stretch: true
     smaller: true
-bibliography: ./media/SMICourse.bib
 ---
 
 ## Basic bacteria infection model
@@ -66,6 +65,30 @@ knitr::include_graphics("./media/nri_review_fig1.png")
 4.  Choose another set of parameter values (usually we only vary one at a time).
 5.  Repeat steps 2-4 until you got all parameter-outcome pairs of interest.
 6.  Report (e.g. plot) your findings.
+
+
+## Model Exploration example 1
+
+-   Question: How does drug dosing impact the emergence of drug resistance in the presence of different types of immune responses?
+-   Approach: Build several simple models and explore (after [Handel et al 2009 JTB](http://dx.doi.org/10.1016/j.jtbi.2008.10.025)).
+
+
+$$
+\begin{aligned}
+\dot{B_s} & = (1-\mu)g_s B_s(1-\frac{B_s+B_r}{B_{max}}) - \frac{k_s C}{C+C_{50}^s} B_s -k_I I B_s\\
+\dot{B_r} & = (\mu g_s B_s + g_r B_r)(1-\frac{B_s+B_r}{B_{max}}) - \frac{k_r C}{C+C_{50}^r} B_r -k_I I B_r\\
+\dot C & =  - d_C C, \qquad C=C+C_0 \textrm{ at } t = t_{interval} \\
+\dot{I} & = r (B_s+B_n)-d_I I   \\
+\end{aligned}
+$$
+
+## Model Exploration example 1
+
+- Vary drug concentration, explore time for resistance to emerge.
+
+![Fig 5 of Handel 2009 JTB]()
+
+
 
 ## Model Exploration example 1
 
