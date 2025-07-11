@@ -47,7 +47,7 @@ _Please go through the tasks below to come prepared to the class._
 
 ### **Wednesday 7/16**
 
-Unit 1, 1:30PM – 3PM: Introduction to Modeling (Andreas) - [Slides](slides/2025_Introduction_to_Modeling_Slides.html){target="_blank"}
+Unit 1, 1:30PM – 3PM: Introduction to Modeling (Andreas) - [Slides](slides/introduction-to-modeling-slides.html){target="_blank"}
 
 Unit 2, 3.30PM – 5PM: Introduction to Immunology (Paul) - [Slides](slides/2025_Introduction_to_Immunology.pptx){target="_blank"}
 
@@ -78,7 +78,9 @@ Unit 6 3.30PM – 5PM: Modeling of bacterial infections (Andreas) - [Slides](sli
 
 Unit 7, 8.30AM - 10AM: Immunology of drug and vaccine treatments (Paul) - [Slides](slides/2025_Drug_and_Vaccine_Treatment.pptx){target="_blank"} 	
 
-Unit 8, 10.30AM - noon: Modeling drug and vaccine treatments (Andreas) - [Slides](slides/2025_Vaccines_Drugs_Slides.html){target="_blank"}, [Code 1](code/simulate_pkpdbacteria_ode.R), [Code 2](code/test_pkpdbacteria.R).
+Unit 8, 10.30AM - noon: Modeling drug and vaccine treatments (Andreas) - [Slides](slides/2025_Vaccines_Drugs_Slides.html){target="_blank"}
+
+<!-- , [Code 1](code/simulate_pkpdbacteria_ode.R), [Code 2](code/test_pkpdbacteria.R). -->
 
 Unit 9, 1:30PM – 3PM: Requested topics I (Andreas/Paul) 
 
