@@ -75,22 +75,27 @@ knitr::include_graphics("./media/nri_review_fig1.png")
 
 $$
 \begin{aligned}
-\dot{B_s} & = (1-\mu)g_s B_s(1-\frac{B_s+B_r}{B_{max}}) - \frac{k_s C}{C+C_{50}^s} B_s -k_I I B_s\\
-\dot{B_r} & = (\mu g_s B_s + g_r B_r)(1-\frac{B_s+B_r}{B_{max}}) - \frac{k_r C}{C+C_{50}^r} B_r -k_I I B_r\\
-\dot C & =  - d_C C, \qquad C=C+C_0 \textrm{ at } t = t_{interval} \\
+\dot{B_s} & = (1-\mu)g_s B_s(1-\frac{B_s+B_r}{B_{max}})  -k_I I B_s - \frac{k_s C}{C+C_{50}^s} B_s\\
+\dot{B_r} & = (\mu g_s B_s + g_r B_r)(1-\frac{B_s+B_r}{B_{max}})  -k_I I B_r - \frac{k_r C}{C+C_{50}^r} B_r\\
 \dot{I} & = r (B_s+B_n)-d_I I   \\
+\dot C & =  - d_C C, \qquad C=C+C_0 \textrm{ at } t = t_{interval} \\
 \end{aligned}
 $$
 
 ## Model Exploration example 1
 
-- Vary drug concentration, explore time for resistance to emerge.
-
-![Fig 5 of Handel 2009 JTB]()
-
+![Fig 3 of Handel 2009 JTB. IR: dotted lines. Sensitive strain: dashed lines. Resistant strains: solid gray (high fitness) and black (low fitness) lines. 4 different immune response models. ](media/jtb2009fig3.png)
 
 
 ## Model Exploration example 1
+
+- Vary drug concentration, explore time for resistance to emerge.
+
+![Fig 5 of Handel 2009 JTB](media/jtb2009fig5.png)
+
+
+
+## Model Exploration example 2
 
 -   Question: How dose the antigen dose for a killed (influenza) vaccine affect antibody levels post vaccination?
 -   Approach: Build a simple model and explore (after [Handel et al 2018 PCB](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006505)).
@@ -104,7 +109,7 @@ $$
 \end{aligned}
 $$ (This is a simpler version of the virus and immune response DSAIRM model.)
 
-## Model Exploration example 1
+## Model Exploration example 2
 
 Run model for different antigen doses ($V_0$).
 
@@ -127,23 +132,23 @@ knitr::include_graphics("./media/iavvaccine-inoculum.png")
 :::
 :::
 
-## Model Exploration - Example 2
+<!-- ## Model Exploration - Example 2 -->
 
-::: columns
-::: {.column width="50%"}
-```{r stickiness1,  echo=FALSE,  fig.align='center'}
-knitr::include_graphics("./media/stickinessmodel.jpg")
-```
-:::
+<!-- ::: columns -->
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r stickiness1,  echo=FALSE,  fig.align='center'} -->
+<!-- knitr::include_graphics("./media/stickinessmodel.jpg") -->
+<!-- ``` -->
+<!-- ::: -->
 
-::: {.column width="50%"}
-```{r stickiness2,  echo=FALSE,  fig.align='center'}
-knitr::include_graphics("./media/stickiness.png")
-```
-:::
-:::
+<!-- ::: {.column width="50%"} -->
+<!-- ```{r stickiness2,  echo=FALSE,  fig.align='center'} -->
+<!-- knitr::include_graphics("./media/stickiness.png") -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: -->
 
-Virus fitness as function of virion binding ( $k_+$ ) and release ( $k_-$ ) rates. [Handel et al (2014) Proc Royal Soc Interface](http://rsif.royalsocietypublishing.org/content/11/92/20131083).
+<!-- Virus fitness as function of virion binding ( $k_+$ ) and release ( $k_-$ ) rates. [Handel et al (2014) Proc Royal Soc Interface](http://rsif.royalsocietypublishing.org/content/11/92/20131083). -->
 
 ## Exploration comments
 
@@ -173,19 +178,31 @@ $$
 6.  Report (e.g. plot) your findings.
 
 
-## Exploration exercise
+## Exploration exercise 1
 
 -   We could do the model exploration by hand through the DSAIRM GUI for the "Basic Bacteria Model" (or any other) app.
 -   The *Bacteria Model Exploration* apps allows you to do some exploration graphically.
--   **We could write R code that loops over parameters and repeatedly calls the underlying model ('Level 2' of the DSAIRM package tutorial).**
+- Take a look at the app, explore the tasks.
 
 
-## Exploration exercise
+## Exploration exercise 2
 
-* Start an R script. Write code that implements a loop over a parameter of your choice, for each value calls the `simulate_basicbacteria_ode()` model function, and computes some outcome of interest.
-* You can copy/paste/modify the solution from task 6 you looked at as homework.
+- Using a pre-written app is user-friendly but not that flexible.
+-  We could instead write our own R code that loops over parameters and repeatedly calls the underlying model _('Level 2' of the DSAIRM package tutorial)._
+- We could also write our own model and decide to explore some outcome of interest as a function of some parameters _('Level 3' of the DSAIRM package tutorial)._ 
 
-* If you want more of a challenge, use the _Extended Bacteria Model_ app and write some R code to loop over parameters of your choice and plot the results (whatever outcome you consider interesting to explore).
 
+## Exploration exercise 2
 
+**Beginner:**
+
+* Start an R script. Write code that implements a loop over a parameter of your choice, for each value calls the `simulate_basicbacteria_ode()` model function, and computes some outcome of interest. If needed, you can copy/paste/modify the solution from task 6 you looked at as homework.
+
+**Intermediate:**
+
+* Use the _Extended Bacteria Model_ app and write some R code to loop over 2 (or more) parameters of your choice and plot the results (whatever outcome you consider interesting to explore).
+
+**Advanced:**
+
+* Extend the code of the _Extended Bacteria Model_ (for instance by implementing 2 innate response players, such as NK cells and IFN-gamma). Then explore some outcome of your choice as a function of some of the model parameters.
 
