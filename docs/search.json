@@ -929,6 +929,7 @@
     "title": "Viral Infection models",
     "section": "Model Exploration",
     "text": "Model Exploration\nExplore any/all of the “IR” models in the virus models section"
+<<<<<<< HEAD
   },
   {
     "objectID": "andreas-presentations/modeling-macroparasites/2025-modeling-macroparasites-slides.html#introduction",
@@ -1034,5 +1035,7 @@
     "title": "Macroparasite Infection models",
     "section": "Worm Infection Example 1",
     "text": "Worm Infection Example 1\n!Time series ](./media/chiyaka2009fig3.png){fig-align=“center”}"
+=======
+>>>>>>> origin/main
   }
 ]
