@@ -1,6 +1,6 @@
 ---
 title: "Bacterial Infection models"
-date: "`r file.mtime(knitr::current_input())`"
+date: 2025-07-17
 author: "[Andreas Handel](https://www.andreashandel.com)"
 format: 
   revealjs:
