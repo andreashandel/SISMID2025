@@ -33,7 +33,10 @@
 }
 
 
-.small { font-size: 70% }
+.small 
+{ 
+	font-size: 70%; 
+}
 
 
 .smallfont pre {

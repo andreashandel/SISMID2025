@@ -64,11 +64,11 @@ Unit 2, 3.30PM – 5PM: Introduction to Immunology (Paul) - [Slides](slides/2025
 
 ### **Thursday 7/17**
 
-Unit 3, 8.30AM - 10AM: Immunology of viral infections (Paul) - [Slides](slides/2025_Viral_Infections.pptx){target="_blank"} 	
+Unit 3, 9AM - 10.30AM: Immunology of viral infections (Paul) - [Slides](slides/2025_Viral_Infections.pptx){target="_blank"} 	
 
-Unit 4, 10.30AM - noon: Modeling of viral infections (Andreas) - [Slides](slides/2025_Virus_Models_Slides.html){target="_blank"}	
+Unit 4, 11AM - noon: Modeling of viral infections (Andreas) - [Slides](slides/2025_Virus_Models_Slides.html){target="_blank"}	
 
-Unit 5, 1:30PM – 3PM: Immunology of bacterial infections (Paul) - [Slides](slides/2025_Bacterial_Infections.pptx){target="_blank"} 	
+Unit 5, 1:00PM – 3PM: Immunology of bacterial infections (Paul) - [Slides](slides/2025_Bacterial_Infections.pptx){target="_blank"} 	
 
 Unit 6 3.30PM – 5PM: Modeling of bacterial infections (Andreas) - [Slides](slides/2025_Bacteria_Models_Slides.html){target="_blank"}
 
@@ -76,9 +76,9 @@ Unit 6 3.30PM – 5PM: Modeling of bacterial infections (Andreas) - [Slides](sli
 ### **Friday 7/18**
 
 
-Unit 7, 8.30AM - 10AM: Immunology of drug and vaccine treatments (Paul) - [Slides](slides/2025_Drug_and_Vaccine_Treatment.pptx){target="_blank"} 	
+Unit 7, 9AM - 10.30AM: Immunology of drug and vaccine treatments (Paul) - [Slides](slides/2025_Drug_and_Vaccine_Treatment.pptx){target="_blank"} 	
 
-Unit 8, 10.30AM - noon: Modeling drug and vaccine treatments (Andreas) - [Slides](slides/2025_Vaccines_Drugs_Slides.html){target="_blank"}
+Unit 8, 11AM - 12.30PM: Modeling drug and vaccine treatments (Andreas) - [Slides](slides/2025_Vaccines_Drugs_Slides.html){target="_blank"}
 
 <!-- , [Code 1](code/simulate_pkpdbacteria_ode.R), [Code 2](code/test_pkpdbacteria.R). -->
 
