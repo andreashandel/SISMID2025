@@ -20,10 +20,10 @@ format:
 
 - Pathogens at times interact.
 - Interaction can be direct or -- more common -- immune system mediated.
-- Well known interactions among pathogens:
+- Important interactions among pathogens:
 	- HIV + TB (and HIV with others)
 	- flu + bacteria
-	- helminths + 
+	- helminths + malaria/allergies
 - Coinfection models range from relatively simple to very complex.
 - There is nothing fundamentally different between these and the models we have seen so far.
 

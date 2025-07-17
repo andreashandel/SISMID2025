@@ -88,7 +88,7 @@
     "href": "andreas-presentations/modeling-coinfections/2025-modeling-coinfections-slides.html#introduction",
     "title": "Coinfection models",
     "section": "Introduction",
-    "text": "Introduction\n\nPathogens at times interact.\nInteraction can be direct or – more common – immune system mediated.\nWell known interactions among pathogens:\n\nHIV + TB (and HIV with others)\nflu + bacteria\nhelminths +\n\nCoinfection models range from relatively simple to very complex.\nThere is nothing fundamentally different between these and the models we have seen so far."
+    "text": "Introduction\n\nPathogens at times interact.\nInteraction can be direct or – more common – immune system mediated.\nImportant interactions among pathogens:\n\nHIV + TB (and HIV with others)\nflu + bacteria\nhelminths + malaria/allergies\n\nCoinfection models range from relatively simple to very complex.\nThere is nothing fundamentally different between these and the models we have seen so far."
   },
   {
     "objectID": "andreas-presentations/modeling-coinfections/2025-modeling-coinfections-slides.html#coinfection-models",
@@ -861,25 +861,11 @@
     "text": "Model Exploration\n\nChoose some parameter values.\nRun the simulation model.\nRecord quantities/outcomes of interest. Here: \\(B\\) at peak.\nChoose another set of parameter values (usually we only vary one at a time). Here: \\(r\\).\nRepeat steps 2-4 until you got all parameter-outcome pairs of interest.\nReport (e.g. plot) your findings."
   },
   {
-    "objectID": "andreas-presentations/modeling-bacterial-infections/2025_Bacteria_Models_Slides.html#exploration-exercise-1",
-    "href": "andreas-presentations/modeling-bacterial-infections/2025_Bacteria_Models_Slides.html#exploration-exercise-1",
+    "objectID": "andreas-presentations/modeling-bacterial-infections/2025_Bacteria_Models_Slides.html#exploration-exercise",
+    "href": "andreas-presentations/modeling-bacterial-infections/2025_Bacteria_Models_Slides.html#exploration-exercise",
     "title": "Bacterial Infection models",
-    "section": "Exploration exercise 1",
-    "text": "Exploration exercise 1\n\nWe could do the model exploration by hand through the DSAIRM GUI for the “Basic Bacteria Model” (or any other) app.\nThe Bacteria Model Exploration apps allows you to do some exploration graphically.\nTake a look at the app, explore the tasks."
-  },
-  {
-    "objectID": "andreas-presentations/modeling-bacterial-infections/2025_Bacteria_Models_Slides.html#exploration-exercise-2",
-    "href": "andreas-presentations/modeling-bacterial-infections/2025_Bacteria_Models_Slides.html#exploration-exercise-2",
-    "title": "Bacterial Infection models",
-    "section": "Exploration exercise 2",
-    "text": "Exploration exercise 2\n\nUsing a pre-written app is user-friendly but not that flexible.\nWe could instead write our own R code that loops over parameters and repeatedly calls the underlying model (‘Level 2’ of the DSAIRM package tutorial).\nWe could also write our own model and decide to explore some outcome of interest as a function of some parameters (‘Level 3’ of the DSAIRM package tutorial)."
-  },
-  {
-    "objectID": "andreas-presentations/modeling-bacterial-infections/2025_Bacteria_Models_Slides.html#exploration-exercise-2-1",
-    "href": "andreas-presentations/modeling-bacterial-infections/2025_Bacteria_Models_Slides.html#exploration-exercise-2-1",
-    "title": "Bacterial Infection models",
-    "section": "Exploration exercise 2",
-    "text": "Exploration exercise 2\nBeginner:\n\nStart an R script. Write code that implements a loop over a parameter of your choice, for each value calls the simulate_basicbacteria_ode() model function, and computes some outcome of interest. If needed, you can copy/paste/modify the solution from task 6 you looked at as homework.\n\nIntermediate:\n\nUse the Extended Bacteria Model app and write some R code to loop over 2 (or more) parameters of your choice and plot the results (whatever outcome you consider interesting to explore).\n\nAdvanced:\n\nExtend the code of the Extended Bacteria Model (for instance by implementing 2 innate response players, such as NK cells and IFN-gamma). Then explore some outcome of your choice as a function of some of the model parameters."
+    "section": "Exploration exercise",
+    "text": "Exploration exercise\nComplete Beginner: Tedious: Run the “Basic Bacteria Model” app repeatedly for different values of \\(r\\), record \\(B_{max}\\) for each run. Then plot the results. Easier: Use the Bacteria Model Exploration app to answer the question.\nAdvanced Beginner: Start an R script. Write code that implements a loop over a parameter of your choice, for each value calls the simulate_basicbacteria_ode() model function, and computes some outcome of interest. If needed, you can copy/paste/modify the solution from task 6 you looked at as homework.\nIntermediate: Use the Extended Bacteria Model app and write some R code to loop over 2 (or more) parameters of your choice and plot the results (whatever outcome you consider interesting to explore).\nAdvanced: Extend the code of the Extended Bacteria Model (for instance by implementing 2 innate response players, such as NK cells and IFN-gamma). Then explore some outcome of your choice as a function of some of the model parameters."
   },
   {
     "objectID": "andreas-presentations/modeling-macroparasites/2025-modeling-macroparasites-slides.html#introduction",
