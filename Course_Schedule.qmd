@@ -82,9 +82,9 @@ Unit 8, 11AM - 12.30PM: Modeling drug and vaccine treatments (Andreas) - [Slides
 
 <!-- , [Code 1](code/simulate_pkpdbacteria_ode.R), [Code 2](code/test_pkpdbacteria.R). -->
 
-Unit 9, 1:30PM – 3PM: Requested topics I (Andreas/Paul) 
+Unit 9, 1:30PM – 3PM: Biology of complex pathogens (Paul) - [Slides](paul-slides/2025_Complex_Pathogens_and_Helminths.pptx){target="_blank"} 	
+Unit 10, 3.30PM – 5PM: Modeling macroparasites and coinfections (Andreas) - [Macroparasites Slides](andreas-presentations/modeling-macroparasites/2025-modeling-macroparasites-slides.html){target="_blank"}, [Coinfection Slides](andreas-presentations/modeling-coinfections/2025-modeling-coinfections-slides.html){target="_blank"}
 
-Unit 10, 3.30PM – 5PM: Requested topics II (Andreas/Paul)
 
 
 

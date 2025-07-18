@@ -181,7 +181,7 @@ $$
 ## Exploration exercise 
 
 
-**Complete Beginner:** Tedious: Run the "Basic Bacteria Model" app repeatedly for different values of $r$, record $B_{max}$ for each run. Then plot the results. Easier: Use the *Bacteria Model Exploration* app to answer the question.
+**Complete Beginner:** Tedious: Run the _Basic Bacteria Model_ app repeatedly for different values of $r$, record $B_{max}$ for each run. Then plot the results. Easier: Use the _Bacteria Model Exploration_ app to answer the question.
 
 **Advanced Beginner:** Start an R script. Write code that implements a loop over a parameter of your choice, for each value calls the `simulate_basicbacteria_ode()` model function, and computes some outcome of interest. If needed, you can copy/paste/modify the solution from task 6 you looked at as homework. 
 
